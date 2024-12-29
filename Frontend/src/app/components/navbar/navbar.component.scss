@@ -1,0 +1,83 @@
+.navbar {
+    height: 56px;
+    padding-left: 330px;
+    padding-right: 330px;
+    background-color: #f4f2ee;
+
+  }
+  
+  .navbar-nav .nav-link {
+    color: #333;
+    font-size: 0.85rem;
+  }
+  
+  .navbar-nav .nav-link .fas {
+    font-size: 1.0rem;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #0073b1; /* LinkedIn blue */
+  }
+  
+  .navbar-nav .nav-link .small {
+    display: block;
+    font-size: 0.75rem;
+  }
+  
+  .input-group-text {
+    color: #0073b1; /* LinkedIn blue */
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+  }
+  
+  .form-control {
+    background-color: #0073b1;
+
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+  }
+  
+  .dropdown-menu {
+    font-size: 0.85rem;
+  }
+  
+  a.text-primary {
+    font-size: 0.85rem;
+    width: 10px;
+  }
+  .navbar {
+    background-color: #f3f2ef; /* Light background similar to LinkedIn */
+  }
+  
+  .nav-link {
+    font-size: 0.9rem;
+    color: #0073b1; /* LinkedIn blue color for links */
+  }
+  
+  .nav-link:hover {
+    color: #005582;
+  }
+  
+  .dropdown-menu {
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dropdown-item {
+    font-size: 0.9rem;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f3f2ef;
+    color: #0073b1;
+  }
+  
+  .dropdown-item.text-danger {
+    color: #d9534f; /* Red color for Sign Out */
+  }
+  
+  .dropdown-item.text-danger:hover {
+    background-color: #f8d7da; /* Light red background for hover */
+  }
+  

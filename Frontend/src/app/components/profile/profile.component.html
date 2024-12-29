@@ -1,0 +1,87 @@
+<div *ngIf="isLoading" class="text-center my-5">
+  <div class="spinner-border text-primary" role="status">
+    <span class="visually-hidden">Loading...</span>
+  </div>
+</div>
+
+<div *ngIf="!isLoading && user" class="profile-page container">
+  <!-- Cover Image -->
+  <div class="cover-image position-relative">
+    <img [src]="user.backgroundImageUrl || 'default-background.jpg'" alt="Cover Image" class="img-fluid rounded-top">
+    <img
+      [src]="user.profilePictureUrl || 'default-profile.jpg'"
+      alt="Profile Picture"
+      class="rounded-circle profile-pic position-absolute"
+      style="top: 70%; left: 20px; width: 100px; border: 3px solid white;"
+    />
+  </div>
+
+  <!-- Profile Header -->
+  <div class="profile-header card shadow-sm mt-5">
+    <div class="card-body">
+      <div class="d-flex justify-content-between align-items-center">
+        <div>
+          <h3 class="mb-0">{{ user.fullName }}</h3>
+          <p class="text-muted mb-1">{{ user.headline }}</p>
+          <p class="text-muted small mb-2">Israel · <a href="#" class="text-primary">Contact info</a></p>
+          <p class="text-muted small">aws zoabi, Lama Abo Raya, and 29 other mutual connections</p>
+        </div>
+        <i class="fas fa-bell text-muted"></i>
+      </div>
+      <div class="d-flex justify-content-start mt-3">
+        <button class="btn btn-primary btn-sm me-2">Message</button>
+        <button class="btn btn-outline-secondary btn-sm">More</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Open to Work Section -->
+  <div class="open-to-work card shadow-sm mt-3">
+    <div class="card-body">
+      <p class="mb-1"><strong>Open to work</strong></p>
+      <p class="text-muted">
+        Computer Programmer, Software Engineer, Software Developer, and Computer Scientist roles
+      </p>
+      <a href="#" class="text-primary">Show details</a>
+    </div>
+  </div>
+
+
+
+<!-- About Section -->
+<div class="card shadow-sm mt-3">
+  <div class="card-body">
+    <h5>About</h5>
+    <p>{{ user.about || 'No information provided.' }}</p>
+  </div>
+</div>
+
+ <!-- Activity Section -->
+ <div class="card shadow-sm mt-3">
+  <div class="card-body">
+    <h5>Activity</h5>
+    <p class="text-muted">{{ user.followers || 0 }} followers</p>
+    <div class="d-flex">
+      <button class="btn btn-outline-primary btn-sm me-2">Posts</button>
+      <button class="btn btn-outline-secondary btn-sm">Comments</button>
+    </div>
+    <p class="mt-3">Maria hasn’t posted yet</p>
+    <a href="#" class="text-primary">Show all posts →</a>
+  </div>
+</div>
+
+  <!-- Education Section -->
+  <div class="card shadow-sm mt-3">
+    <div class="card-body">
+      <h5>Education</h5>
+      <div class="d-flex align-items-start">
+        <i class="fas fa-graduation-cap text-primary me-3"></i>
+        <div>
+          <h6 class="mb-0">Tel-Hai College</h6>
+          <p class="text-muted small">Java, C++, and +4 skills</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>

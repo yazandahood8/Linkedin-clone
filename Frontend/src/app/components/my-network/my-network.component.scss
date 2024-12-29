@@ -1,0 +1,72 @@
+.my-network {
+    background-color: #f3f2ef;
+    padding: 20px; /* Padding inside the container */
+    margin-top: 50px; /* Top margin to create spacing */
+  
+    h6 {
+      font-size: 1rem;
+      font-weight: bold;
+    }
+  
+    .card {
+      border-radius: 8px; /* Rounded corners for cards */
+      margin-bottom: 20px; /* Space between cards */
+    }
+  
+    .card-body {
+      padding: 20px; /* Consistent inner padding */
+    }
+  
+    .game-card {
+      border: 1px solid #ddd;
+      padding: 15px; /* Padding inside game cards */
+      border-radius: 5px;
+      text-align: center;
+  
+      span {
+        font-weight: bold;
+        display: block;
+      }
+  
+      button {
+        margin-top: 5px;
+      }
+    }
+  
+    .suggested-profile {
+      img {
+        border: 2px solid #ddd;
+        border-radius: 50%;
+        width: 60px; /* Set profile image size */
+        height: 60px;
+      }
+  
+      button {
+        margin-top: 5px;
+        font-size: 0.85rem;
+      }
+    }
+  
+    .btn-primary {
+      background-color: #0073b1;
+      border-color: #0073b1;
+    }
+  
+    .btn-outline-primary {
+      font-size: 0.85rem;
+    }
+  
+    .row {
+      margin-bottom: 20px; /* Space between rows */
+    }
+  
+    .col-md-3,
+    .col-md-9 {
+      padding: 15px; /* Padding for columns */
+    }
+  
+    .tabs {
+      margin-bottom: 20px; /* Space below tabs */
+    }
+  }
+  

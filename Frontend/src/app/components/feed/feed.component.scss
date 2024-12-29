@@ -1,0 +1,52 @@
+.jobs-page {
+  background-color: #f3f2ef;
+  padding: 20px;
+
+  .profile-card {
+    .card-body {
+      img {
+        border-radius: 50%;
+        border: 2px solid #ddd;
+      }
+
+      h5 {
+        font-size: 16px;
+        font-weight: bold;
+      }
+
+      .btn-outline-primary {
+        font-size: 14px;
+      }
+    }
+
+    .list-group-item {
+      font-size: 14px;
+    }
+  }
+
+  .job-item {
+    .job-title {
+      font-weight: bold;
+    }
+
+    .company {
+      font-size: 14px;
+      color: #666;
+    }
+  }
+
+  .card {
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+    .card-header {
+      background: #f8f9fa;
+      font-weight: bold;
+      font-size: 14px;
+    }
+
+    .card-body {
+      font-size: 14px;
+    }
+  }
+}

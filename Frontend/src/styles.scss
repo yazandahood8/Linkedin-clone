@@ -1,0 +1,12 @@
+/* src/styles.scss */
+
+/* Add padding to the body to accommodate the fixed navbar */
+body {
+  padding-top: 70px;
+}
+
+/* Customize Angular Material theme if used */
+@import "@angular/material/prebuilt-themes/indigo-pink.css";
+//@import "ngx-toastr/toastr.css";
+
+/* Additional custom styles can be added here */
