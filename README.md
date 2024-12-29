@@ -134,6 +134,12 @@ This project is currently unlicensed. For usage inquiries, please contact the de
 
 ## Contact
 For any questions or collaboration opportunities, please reach out:
+Yazan Dawud
 - **GitHub**: [yazandahood8](https://github.com/yazandahood8)
 - **LinkedIn**: [Yazan Dawud](https://www.linkedin.com/in/yazan-dahood-031145309/)
 - **Email**: [dahood.yazan8@gmail.com](mailto:dahood.yazan8@gmail.com)
+
+Maria El-heeb
+- **LinkedIn**: [Maria El-heeb](https://www.linkedin.com/in/maria-heeb-099a25211/)
+- **Email**: [maria.heeb@example.com](maria.elheeb@gmail.com)
+  
