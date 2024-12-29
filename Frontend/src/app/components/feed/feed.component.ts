@@ -50,7 +50,6 @@ export class FeedComponent implements OnInit {
       this.authService.getCurrentUser().subscribe();
     }
     //this.user = this.authService.userValue;
-    this.getUserByEmail("dahood.yazan8@gmail.com");
     this.loadPosts();
     this.postForm = this.fb.group({
       author: ['', Validators.required],
