@@ -1,7 +1,7 @@
 # LinkedIn Clone
 
 ## Overview
-The **LinkedIn Clone** is a professional networking platform designed to emulate key functionalities of LinkedIn, enabling users to build connections, interact through posts, and explore job opportunities. With a robust backend and a modern frontend, this project represents a scalable and secure solution for professional networking. This project is built by Yazan Dawud, a Full-Stack Developer with over 4 years of experience in scalable systems, API design, and microservices architecture.
+The **LinkedIn Clone** is a professional networking platform designed to emulate key functionalities of LinkedIn, enabling users to build connections, interact through posts, and explore job opportunities. With a robust backend and a modern frontend, this project represents a scalable and secure solution for professional networking. This project is built by Yazan Dawud and Maria El-Heeb
 
 ---
 
