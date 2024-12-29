@@ -137,7 +137,4 @@ We welcome contributions! To contribute:
 
 ---
 
-## Contact
-For any questions or collaboration opportunities, please reach out:
-- **GitHub**: [yazandahood8](https://github.com/yazandahood8)
-- **Email**: [dahood.yazan8@gmail.com](mailto:dahood.yazan8@gmail.com)
+
