@@ -1,7 +1,7 @@
 # LinkedIn Clone
 
 ## Overview
-The **LinkedIn Clone** is a professional networking platform designed to emulate key functionalities of LinkedIn, enabling users to build connections, interact through posts, and explore job opportunities. With a robust backend and a modern frontend, this project represents a scalable and secure solution for professional networking. This project is built by Yazan Dawud and Maria El-Heeb
+The **LinkedIn Clone** is a professional networking platform designed to emulate key functionalities of LinkedIn, enabling users to build connections, interact through posts, and explore job opportunities. With a robust backend and a modern frontend, this project represents a scalable and secure solution for professional networking. This project is built by Yazan Dawud
 
 ---
 
@@ -139,7 +139,3 @@ Yazan Dawud
 - **LinkedIn**: [Yazan Dawud](https://www.linkedin.com/in/yazan-dahood-031145309/)
 - **Email**: [dahood.yazan8@gmail.com](mailto:dahood.yazan8@gmail.com)
 
-Maria El-heeb
-- **LinkedIn**: [Maria El-heeb](https://www.linkedin.com/in/maria-heeb-099a25211/)
-- **Email**: [maria.heeb@example.com](maria.elheeb@gmail.com)
-  
